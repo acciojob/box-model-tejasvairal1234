@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body
+{
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+#main
+{
+	width: 500px;
+	height: 200px;
+	background-color: #d3d4d3;
+	border-radius: 40px;
+	border: 5px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+	
+}
+
+.light
+{
+	height: 100px;
+	width: 100px;
+	/* background: yellow; */
+	border-radius: 50%;
+	margin-right: 10px;
+	
+}
+
+#red
+{
+	background: red;
+}
+
+#yellow
+{
+	background: yellow;
+}
+
+#green
+{
+	background: green;
+}
